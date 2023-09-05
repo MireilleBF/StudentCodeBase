@@ -1,10 +1,6 @@
 # Harmonisation 
 
-Sous Enoncés : le sujet
+Les énoncés originaux sont dans Moodle.
+Ici nous sauvegardons une version accessible en cas de problèmes d'accès.
 
-Sous Codes : les codes pour la séance suivante.
-
-To share code with students
-
-Une branche par matière.
 
