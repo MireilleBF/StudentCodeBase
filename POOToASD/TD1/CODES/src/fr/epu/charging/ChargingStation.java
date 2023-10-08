@@ -2,6 +2,14 @@ package fr.epu.charging;
 
 import fr.epu.vehicles.ElectricVehicle;
 
+/**
+ * A charging station for electric vehicles.
+ * A charging station has a name and a number of available charging points.
+ * A charging station is connected to an energy provider.
+ * A charging station can connect a vehicle to a charging point and charge it to full.
+ * A charging station can disconnect a vehicle from a charging point, However, we don't manage the charging points themselves.
+ * Clearly we should manage them if it was not a case study for teaching..
+ */
 public class ChargingStation {
         private String stationName;
         private int availableChargingPoints;
