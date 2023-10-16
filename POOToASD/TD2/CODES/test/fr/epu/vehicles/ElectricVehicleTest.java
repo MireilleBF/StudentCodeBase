@@ -9,7 +9,7 @@ class ElectricVehicleTest {
 
     ElectricVehicle electricVehicle;
     double batteryCapacity = 30;
-    static double ENERGY_CONSUMPTION_PER_KM_DEFAULT = 0.2;
+    static final double ENERGY_CONSUMPTION_PER_KM_DEFAULT = 0.2;
 
     @BeforeEach
     void setUp() {

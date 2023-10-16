@@ -31,7 +31,7 @@ public class VehicleService {
 
     public void moveVehicleToRepair(ElectricVehicle vehicle){
         for(int i = 0; i < availableVehiclesCount; i++){
-            if(availableVehicles[i] == vehicle){
+            if(availableVehicles[i].equals(vehicle)){
                 availableVehicles[i] = null;
                 swapVehicles(availableVehicles, i, availableVehiclesCount - 1);
                 availableVehiclesCount--;
@@ -42,7 +42,7 @@ public class VehicleService {
 
     public void moveVehicleToAvailable(ElectricVehicle vehicle){
         for(int i = 0; i < vehicleInRepairCount; i++){
-            if(vehiclesInRepair[i] == vehicle){
+            if(vehiclesInRepair[i].equals(vehicle)){
                 vehiclesInRepair[i] = null;
                 swapVehicles(vehiclesInRepair, i, vehicleInRepairCount - 1);
                 vehicleInRepairCount--;
